@@ -540,30 +540,3 @@ function checkAccess(userId, resourceId, taskId, callback){
 }
 
 module.exports = connect;
-
-// addChildResource("m","b",()=>{
-// 	addChildResource("b","x",()=>{})
-// 	addChildResource("b","y",()=>{})
-// 	allowResourceAccess(1, "b", ["role1"], ()=>{})
-// 	allowResourceAccess(2, "m", ["role1"], ()=>{})
-// })
-// addChildResource("m","a",()=>{
-// 	allowResourceAccess(3, "a", ["role1"], ()=>{})
-// })
-// allowResourceAccess(1, "m", "role1", ()=>{})
-// allowResourceAccess(1, "a", "role1", ()=>{})
-// removeResourceAccess(1,"m","role1",()=>{})
-// assignResource(2, "l", "role1", ()=>{console.log(new Date())})
-// assignResource(5, "d", "role1", ()=>{console.log(new Date())})
-// assignResource(6, "e", "role1", ()=>{console.log(new Date())})
-// assignResource(7, "f", "role1", ()=>{console.log(new Date())})
-// assignResource(8, "g", "role1", ()=>{console.log(new Date())})
-// assignResource(9, "i", "role1", ()=>{console.log(new Date())})
-// assignResource(3, "b", "role1", ()=>{console.log(new Date())})
-// updateResourceAccess( 1, "h","role10",()=>{});
-// addResource("a", ()=>{});
-// deleteResource("a", false, ()=>{})
-// addRole("role2", ()=>{});
-// addTask(["role1", "role2"], ["task1","task2"], ()=>{})
-// getRole(1, "b", (err, e)=>{ console.log(err, e)})
-// checkAccess(1, "b", "task1", function (){console.log(arguments)})
