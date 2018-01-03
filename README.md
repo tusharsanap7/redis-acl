@@ -50,7 +50,7 @@ let redisConnectionConf = {
 	"port": 6379
 };
 acl = new acl(redisConnectionConf);
-
+```
 
 All the following functions take a callback with an err and response parameters as last parameter.
 
