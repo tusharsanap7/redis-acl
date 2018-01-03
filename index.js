@@ -495,7 +495,6 @@ function addRole(roleIds, callback){
 function addTask(roleIds, taskIds, callback){
 	const rolesKey = "roles:chlidren";
 	const pipeline = redis.multi();
-	pipeline.sadd(roleIds);
 	if(!Array.isArray(roleIds))
 		roleIds = [roleIds];
 	pipeline.sadd(rolesKey, roleIds);
