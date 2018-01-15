@@ -1,6 +1,6 @@
 {
   "name": "redis-acl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Access control list with redis - user role and access management",
   "main": "index.js",
   "scripts": {
