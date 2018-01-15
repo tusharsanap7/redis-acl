@@ -108,7 +108,7 @@ Remove user's role to access a resource(s):
 
 ```javascript
 // this will remove user's mentioned role for mentioned resource(s)
-removeResourceAccess("david","device-reviews","admin",(err, res)=>{});
+acl.removeResourceAccess("david","device-reviews","admin",(err, res)=>{});
 ```
 
 Get user roles for resource:
