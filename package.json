@@ -1,6 +1,6 @@
 {
   "name": "redis-acl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Access control list with redis - user role and access management",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "dependencies": {
     "neo-async": "^2.5.0",
     "redis": "^2.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tusharsanap7/redis-acl.git"
+}
 }

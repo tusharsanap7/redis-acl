@@ -274,6 +274,15 @@ __Arguments__
 
 ---------------------------------------
 
+
+## Contributors
+
+The original author of redis-acl is [Tushar Sanap](https://github.com/tusharsanap7)
+
+## License
+
+[MIT](LICENSE)
+
 ## Future work
 
 - Support for diffrent roles for inherited access.
